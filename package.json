@@ -4,12 +4,12 @@
   "description": "Messing around trying to understand Webpack but also eventHandling in JS.",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@playwright/test": "^1.36.2",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
   }
