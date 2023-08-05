@@ -2,7 +2,7 @@
   "name": "eventhandling-webpack",
   "version": "1.0.0",
   "description": "Messing around trying to understand Webpack but also eventHandling in JS.",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
