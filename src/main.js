@@ -4,5 +4,6 @@ function foobar() {
     document.getElementsByClassName('content')[0].append(new_el);
 }
 
-// not sure if this is evil
-window.foobar  = foobar;
+// adding an event listener
+// how one organises this in large projects is curious
+document.getElementById('big-button').addEventListener('click', foobar);
